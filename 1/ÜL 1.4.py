@@ -5,7 +5,8 @@ lause_keskosa = ", kiiruse ületamise eest teie trahv on "
 
 if tegelikKiirus > lubatudKiirus:
     ületatudKiirus = int(tegelikKiirus - lubatudKiirus)
-    trahv = int(ületatudKiirus * 3)
+    trahv = min(190, ületatudKiirus * 3)
     print(nimi + lause_keskosa + str(trahv))
-
+else:
+    print(nimi + " te ei ole kiirust ületanud")
 
