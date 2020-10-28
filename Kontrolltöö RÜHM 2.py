@@ -22,7 +22,7 @@ def kone_maksumus(konekestvused, minhind):
     koguhind = 0
 
     for i in konekestvused:
-        if i < 30:
+        if i < 60:
             print("Kõnehind on " + str(minhind))
             koguhind = koguhind + minhind
         if i > 600:
