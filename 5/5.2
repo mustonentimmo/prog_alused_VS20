@@ -1,0 +1,11 @@
+
+konto = []
+
+fail = open("konto.txt", encoding="UTF-8")
+for rida in fail:
+     konto.append(rida)
+fail.close()
+
+for x in konto:
+    if float(x) > 0:
+        print(x)
