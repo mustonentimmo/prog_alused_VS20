@@ -1,3 +1,3 @@
 # prog_alused
 
-"PHP alused" tunni raames tehtud tööd
+"Programeerimise alused" tunni raames tehtud tööd
